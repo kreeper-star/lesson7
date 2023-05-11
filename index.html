@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basic_lesson_2_Слабожанин Арсений JSKB-2 2 модуль</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>  
+	<button id="start">Старт игры</button>
+	
+	<div class = 'hide-first' id="first">
+		<div>'1'+ 2 = </div>
+		<input id="input">
+		<button id="firstBTN">ответить</button>
+		<div id="ask"></div>
+	</div>
+
+	<div class = 'hide-first' id= "second-stage" >
+		<div>На какой картинке изображён <br> муравей листорез?</div>
+		<div id="pictures">
+			<img id='img1' width="100px" height="100px" src="https://grizun-off.ru/wp-content/uploads/f/f/9/ff9f3bd77cc97f31443d9e229fe29a2e.jpeg"/>
+			<img id='img2' width="100px" height="100px" src="https://grizun-off.ru/wp-content/uploads/7/a/6/7a683a9b7cb48784637c9f8969b429a6.jpeg"/>
+			<img id='img3' width="100px" height="100px" src="https://stop-klopu.com/wp-content/uploads/c/0/9/c09ec25da5bdc49ace43a940396eb30c.jpe"/>
+			<img id='img4' width="100px" height="100px" src="https://grizun-off.ru/wp-content/uploads/9/0/7/907bc89e3c3eb3e678417678a90010be.jpeg"/>
+			<div id="not"></div>
+		</div>
+	</div>
+
+	<div class="hide-first" id="boss">
+		<div>
+			<div id="heal-monster"></div>
+			<img width="350px" height="300px"  id="crab" src="images/2023-02-20_22_33_43-removebg-preview.png">
+		</div>
+		<div id="test">
+			<button id="atak">Атаковать</button>
+			<button id="atak2">Защита</button>
+			<button id="atak3">Лечение</button>
+		</div>
+		<div id="heal-user"></div>
+	</div>
+
+	<div class="hide-first" id="final" >
+		<div>6 + 6</div>
+		<input id="input2">
+		<button id="firstBTN2">ответить</button>
+		<div id="ask2"></div>
+	</div>
+
+	<div id="stage4" class="hide-first">
+		<div id="w"><h1>Найди кнопку)</h1></div>
+		<button style="width: 40px; height: 10px;"  ></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;" id="trueBtn"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+		<button style="width: 40px; height: 10px;"></button>
+	</div>
+	<div class="hide-first" id="redbool">Ты прошёл игру...</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body> 
+</html>
